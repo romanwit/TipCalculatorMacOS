@@ -41,13 +41,13 @@
 		60336C722D04AE89003435C4 /* TipCalculatorMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculatorMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60336C852D04AE8C003435C4 /* TipCalculatorMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60336C8F2D04AE8C003435C4 /* TipCalculatorMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60FCDAD32D2ABFA800B53883 /* tipcalculatorios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculatorios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FCDAD32D2ABFA800B53883 /* TipCalculatorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculatorIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FCDAE42D2ABFAA00B53883 /* tipcalculatoriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatoriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FCDAEE2D2ABFAB00B53883 /* tipcalculatoriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatoriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		60FCDB002D2AC18500B53883 /* Exceptions for "TipCalculatorMac" folder in "tipcalculatorios" target */ = {
+		60FCDB002D2AC18500B53883 /* Exceptions for "TipCalculatorMac" folder in "TipCalculatorIOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			platformFiltersByRelativePath = {
 				Assets.xcassets = (ios, );
@@ -58,7 +58,7 @@
 				"Preview Content/Preview Assets.xcassets" = (ios, );
 				TipCalculatorMacApp.swift = (ios, );
 			};
-			target = 60FCDAD22D2ABFA800B53883 /* tipcalculatorios */;
+			target = 60FCDAD22D2ABFA800B53883 /* TipCalculatorIOS */;
 		};
 		60FCDB082D2AC68200B53883 /* Exceptions for "TipCalculatorMac" folder in "TipCalculatorMac" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -73,7 +73,7 @@
 			};
 			target = 60336C712D04AE89003435C4 /* TipCalculatorMac */;
 		};
-		60FCDB092D2AD61500B53883 /* Exceptions for "tipcalculatorios" folder in "tipcalculatorios" target */ = {
+		60FCDB092D2AD61500B53883 /* Exceptions for "tipcalculatorios" folder in "TipCalculatorIOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
@@ -82,7 +82,7 @@
 				"Preview Content/Preview Assets.xcassets",
 				tipcalculatoriosApp.swift,
 			);
-			target = 60FCDAD22D2ABFA800B53883 /* tipcalculatorios */;
+			target = 60FCDAD22D2ABFA800B53883 /* TipCalculatorIOS */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -91,7 +91,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				60FCDB082D2AC68200B53883 /* Exceptions for "TipCalculatorMac" folder in "TipCalculatorMac" target */,
-				60FCDB002D2AC18500B53883 /* Exceptions for "TipCalculatorMac" folder in "tipcalculatorios" target */,
+				60FCDB002D2AC18500B53883 /* Exceptions for "TipCalculatorMac" folder in "TipCalculatorIOS" target */,
 			);
 			path = TipCalculatorMac;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 		60FCDAD42D2ABFA800B53883 /* tipcalculatorios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				60FCDB092D2AD61500B53883 /* Exceptions for "tipcalculatorios" folder in "tipcalculatorios" target */,
+				60FCDB092D2AD61500B53883 /* Exceptions for "tipcalculatorios" folder in "TipCalculatorIOS" target */,
 			);
 			path = tipcalculatorios;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 				60336C722D04AE89003435C4 /* TipCalculatorMac.app */,
 				60336C852D04AE8C003435C4 /* TipCalculatorMacTests.xctest */,
 				60336C8F2D04AE8C003435C4 /* TipCalculatorMacUITests.xctest */,
-				60FCDAD32D2ABFA800B53883 /* tipcalculatorios.app */,
+				60FCDAD32D2ABFA800B53883 /* TipCalculatorIOS.app */,
 				60FCDAE42D2ABFAA00B53883 /* tipcalculatoriosTests.xctest */,
 				60FCDAEE2D2ABFAB00B53883 /* tipcalculatoriosUITests.xctest */,
 			);
@@ -269,9 +269,9 @@
 			productReference = 60336C8F2D04AE8C003435C4 /* TipCalculatorMacUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		60FCDAD22D2ABFA800B53883 /* tipcalculatorios */ = {
+		60FCDAD22D2ABFA800B53883 /* TipCalculatorIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60FCDAFC2D2ABFAB00B53883 /* Build configuration list for PBXNativeTarget "tipcalculatorios" */;
+			buildConfigurationList = 60FCDAFC2D2ABFAB00B53883 /* Build configuration list for PBXNativeTarget "TipCalculatorIOS" */;
 			buildPhases = (
 				60FCDACF2D2ABFA800B53883 /* Sources */,
 				60FCDAD02D2ABFA800B53883 /* Frameworks */,
@@ -285,11 +285,11 @@
 				60336C742D04AE89003435C4 /* TipCalculatorMac */,
 				60FCDAD42D2ABFA800B53883 /* tipcalculatorios */,
 			);
-			name = tipcalculatorios;
+			name = TipCalculatorIOS;
 			packageProductDependencies = (
 			);
 			productName = tipcalculatorios;
-			productReference = 60FCDAD32D2ABFA800B53883 /* tipcalculatorios.app */;
+			productReference = 60FCDAD32D2ABFA800B53883 /* TipCalculatorIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		60FCDAE32D2ABFAA00B53883 /* tipcalculatoriosTests */ = {
@@ -389,7 +389,7 @@
 				60336C712D04AE89003435C4 /* TipCalculatorMac */,
 				60336C842D04AE8C003435C4 /* TipCalculatorMacTests */,
 				60336C8E2D04AE8C003435C4 /* TipCalculatorMacUITests */,
-				60FCDAD22D2ABFA800B53883 /* tipcalculatorios */,
+				60FCDAD22D2ABFA800B53883 /* TipCalculatorIOS */,
 				60FCDAE32D2ABFAA00B53883 /* tipcalculatoriosTests */,
 				60FCDAED2D2ABFAB00B53883 /* tipcalculatoriosUITests */,
 			);
@@ -499,12 +499,12 @@
 		};
 		60FCDAE62D2ABFAA00B53883 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60FCDAD22D2ABFA800B53883 /* tipcalculatorios */;
+			target = 60FCDAD22D2ABFA800B53883 /* TipCalculatorIOS */;
 			targetProxy = 60FCDAE52D2ABFAA00B53883 /* PBXContainerItemProxy */;
 		};
 		60FCDAF02D2ABFAB00B53883 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60FCDAD22D2ABFA800B53883 /* tipcalculatorios */;
+			target = 60FCDAD22D2ABFA800B53883 /* TipCalculatorIOS */;
 			targetProxy = 60FCDAEF2D2ABFAB00B53883 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -936,7 +936,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60FCDAFC2D2ABFAB00B53883 /* Build configuration list for PBXNativeTarget "tipcalculatorios" */ = {
+		60FCDAFC2D2ABFAB00B53883 /* Build configuration list for PBXNativeTarget "TipCalculatorIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60FCDAF62D2ABFAB00B53883 /* Debug */,
