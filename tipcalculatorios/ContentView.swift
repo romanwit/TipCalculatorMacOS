@@ -10,11 +10,7 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    #if os(macOS)
     @Query private var items: [Item]
-    #elseif os(iOS)
-    @Query private var items: [ItemIOS]
-    #endif
 
     var body: some View {
         NavigationSplitView {

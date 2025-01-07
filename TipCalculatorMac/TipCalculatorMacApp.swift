@@ -11,15 +11,9 @@ import SwiftData
 @main
 struct TipCalculatorMacApp: App {
     var sharedModelContainer: ModelContainer = {
-        #if os(macOS)
         let schema = Schema([
             Item.self,
         ])
-        #elseif os(iOS)
-        let schema = Schema([
-            ItemIOS.self,
-        ])
-#endif
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
@@ -30,16 +24,9 @@ struct TipCalculatorMacApp: App {
     }()
 
     var body: some Scene {
-        #if os(macOS)
         WindowGroup {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
-        #elseif os(iOS)
-        WindowGroup(makeContent: {
-            ContentViewIOS()
-        })
-        .modelContainer(sharedModelContainer)
-        #endif
     }
 }

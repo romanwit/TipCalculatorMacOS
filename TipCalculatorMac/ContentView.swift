@@ -23,7 +23,7 @@ struct AddButtonStyle: ButtonStyle {
     }
 }
 
-#if os(macOS)
+//#if os(macOS)
 struct ContentView: View {
     @ObservedObject var viewModel = BillViewModel()
 
@@ -64,7 +64,7 @@ struct ContentView: View {
         .padding()
     }
 }
-#elseif os(iOS)
+/*#elseif os(iOS)
 struct ContentViewIOS: View {
     @ObservedObject var viewModel = BillViewModel()
 
@@ -105,16 +105,16 @@ struct ContentViewIOS: View {
         .padding()
     }
 }
-#endif
+#endif*/
 
 struct TipCalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            #if os(macOS)
+            //#if os(macOS)
             ContentView()
-            #elseif os(iOS)
-            ContentViewIOS()
-            #endif
+            //#elseif os(iOS)
+            //ContentViewIOS()
+            //#endif
         }
     }
 }

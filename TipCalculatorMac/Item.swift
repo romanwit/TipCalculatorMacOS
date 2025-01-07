@@ -9,7 +9,6 @@ import Foundation
 import SwiftData
 
 
-#if os(macOS)
 @Model
 final class Item {
     var timestamp: Date
@@ -18,13 +17,4 @@ final class Item {
         self.timestamp = timestamp
     }
 }
-#elseif os(iOS)
-@Model
-final class ItemIOS {
-    var timestamp: Date
-    
-    init(timestamp: Date) {
-        self.timestamp = timestamp
-    }
-}
-#endif
+
