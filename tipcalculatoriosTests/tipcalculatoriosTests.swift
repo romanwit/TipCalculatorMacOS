@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import tipcalculatorios
+@testable import TipCalculatorIOS
 
 struct tipcalculatoriosTests {
 

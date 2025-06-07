@@ -833,7 +833,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipcalculatorios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tipcalculatorios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculatorIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TipCalculatorIOS";
 			};
 			name = Debug;
 		};
@@ -853,7 +853,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipcalculatorios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tipcalculatorios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculatorIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TipCalculatorIOS";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
